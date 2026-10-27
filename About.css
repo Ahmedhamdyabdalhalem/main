@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+    background-size:cover ;
+
+}
+div{
+  
+}
+.card-img{
+    width: 10%;
+}

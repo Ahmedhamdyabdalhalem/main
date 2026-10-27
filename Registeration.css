@@ -1,0 +1,8 @@
+div{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    /* align-items: center; */
+    /* grid-template-columns: 2;
+    grid-template-rows: 49; */
+}

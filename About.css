@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 section{
-    width: 100%;
-    height: 100%;
-    background-color: bisque;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-color: bisque;
     display:flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     flex-direction: row;
-    /* justify-content: start; */
+    justify-content: start;
     flex-wrap: wrap;
-    background-size:cover ;
+    background-size:cover ; */
 
 }
 div{
-  
+   display:flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
 }
 .card-img{
     width: 10%;

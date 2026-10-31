@@ -1,34 +1,103 @@
-.div1{
-    height: 600px;
-    display: grid;
-    flex-direction:row;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 100px, 1fr;
-    background-color:white;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-form{
-    background-color: aqua;
-    text-align: center;
-    border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    border: 2px solid black;
+body{
+    background-color:rgba(106, 199, 199, 0.525);
 }
-h1{
-    text-align: center;
+
+header {
+    padding: 30px 50px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
 }
-button{
-    background-color: gold;
-    color: black;
-    border-radius: 10px;
-    border: 2px solid black;
-    width: 100px;
-}
-button:hover{
-    background-color: rgba(137, 119, 14, 0.95);
+
+h1 {
     color: white;
 }
-a{
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+a {
     text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a:hover {
+    color: brown;
+}
+.contenar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 30px;
+    /* max-width: 500px; */
+    
+}
+h2{
+    text-align: center;
+    color: rgba(16, 16, 205, 0.724);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+h3{
+    color: rgba(16, 16, 205, 0.724);
+    font-size: larger;
+}
+form{
+    background: white;
+    width: 100%;
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid rgba(23, 23, 117, 0.42);
+}
+input:active{
+    border: 2px solid blue;
+}
+label{
+    color: rgba(16, 16, 205, 0.724);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+button{
+    background-color: rgba(16, 16, 205, 0.724);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: rgba(30, 30, 105, 0.724);
+    transform: translateY(-6px);
+}
+.link{
+    color:black;
+}
+p{
+    color: rgba(16, 16, 205, 0.724);
 }
